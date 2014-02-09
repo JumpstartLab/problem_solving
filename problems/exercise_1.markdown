@@ -1,3 +1,5 @@
+## Strings
+
 1. Implement an algorithm to determine if a string has all unique characters without using `uniq`. What if you can not use additional data structures?
 2. Write code to reverse a string without using `.reverse`
 3. Design an algorithm and write code to remove the duplicate characters in a string without using `.uniq`
