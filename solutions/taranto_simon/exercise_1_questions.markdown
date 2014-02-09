@@ -17,3 +17,7 @@ application code files) look like?
 ## Problem 2
 Write code to reverse a string without using .reverse
 * what's the easiest thing to reverse?  A single character word.
+* okay, a two character string, we need to just switch the places of the first
+  and second chars.
+* we really want to grab the last letter and make it first, then grab the second
+  to last letter and make it second from the front.  Inject!

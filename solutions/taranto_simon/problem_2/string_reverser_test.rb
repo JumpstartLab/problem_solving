@@ -9,4 +9,14 @@ class StringReverserTest < Minitest::Test
     reverser = StringReverser.go("f")
     assert_equal("f", reverser)
   end
+
+  def test_it_reverses_two_chars
+    reverser = StringReverser.go("fo")
+    assert_equal("of", reverser)
+  end
+
+  def test_it_reverses_large_word
+    reverser = StringReverser.go("foobarbaz")
+    assert_equal("zabraboof", reverser)
+  end
 end
