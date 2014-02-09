@@ -10,16 +10,17 @@ class ExerciseTwo
     @string.split("")
   end
 
-  def reverse_order
-    backwards_array.join
+  def backwards_array
+    # backwards_array = []
+    # self.break.each do |letter|
+    #   backwards_array << letter
+    # end
+    # backwards_array.reverse
+    self.break.reverse
   end
 
-  def backwards_array
-    backwards_array = []
-    self.break.each do |letter|
-      backwards_array << letter
-    end
-    backwards_array.reverse
+  def reverse_order
+    backwards_array.join
   end
 
 end
