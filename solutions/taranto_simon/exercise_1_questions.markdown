@@ -21,3 +21,8 @@ Write code to reverse a string without using .reverse
   and second chars.
 * we really want to grab the last letter and make it first, then grab the second
   to last letter and make it second from the front.  Inject!
+
+## Problem 2
+Design an algorithm and write code to remove the duplicate characters in
+a string without using .uniq
+* let's just get started and make the basic structure.
