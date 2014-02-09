@@ -22,7 +22,24 @@ Write code to reverse a string without using .reverse
 * we really want to grab the last letter and make it first, then grab the second
   to last letter and make it second from the front.  Inject!
 
-## Problem 2
+## Problem 3
 Design an algorithm and write code to remove the duplicate characters in
 a string without using .uniq
 * let's just get started and make the basic structure.
+* oh man, I forgot to write my questions down.
+* this requirement felt very similar to what we needed to do for the preivous
+  two exercises using inject and checking for uniqueness.
+
+## Problem 4
+Write a method to decide if two strings are anagrams or not
+* I've done this problem before in Exercism so it sounds familiar.
+* Let's just get started and set up a simple example.
+* I'm thinking we'll do some sort of character count in each word and if the
+  char counts matach then we're good.
+* do we need to worry about caps?
+* ok, so I have a working implementation with very simple cases.  What could
+  I be missing with more complicated cases?  What about some words with caps and
+  some without?  How do we treat those?  The simplest case would say 'F' and 'f'
+  are different so we don't have to deal with them.  In reality that may not be
+  a great assumption.
+* 
