@@ -42,4 +42,12 @@ Write a method to decide if two strings are anagrams or not
   some without?  How do we treat those?  The simplest case would say 'F' and 'f'
   are different so we don't have to deal with them.  In reality that may not be
   a great assumption.
-* 
+
+## Problem 5
+Write a method to replace all spaces in a string with ‘%20’ without .gsub or
+.sub
+* okay, so we're going to have a string with spaces in it.  We want to iterate
+  through each character in the string and replace it with '%20'.
+* what's the best way to iterate through a string's chars?
+* it seems reasonable to just use inject again.
+
