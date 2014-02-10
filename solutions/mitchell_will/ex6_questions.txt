@@ -1,0 +1,5 @@
+How do I rotate a 2D array?
+
+What does it mean to rotate an array?
+
+How do the columns in a matrix relate to the rows in it rotated version?
