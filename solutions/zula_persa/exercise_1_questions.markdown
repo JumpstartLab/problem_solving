@@ -17,3 +17,7 @@
 * What is an ordinal digit? Can this give me back what I want predictably?
 * Can I just subtract 96 from the ordinal number?
 * Can I go through the index of each one, and check the ordinal number, and make sure it has not showed up before?
+* Oooooh interesting... "a".ord % 32 == 1!
+* Can I cycle though the length of the word using `times` and the position of the character % 32?
+* Can I append to a string? (So I don't have to use another data structure?)
+
