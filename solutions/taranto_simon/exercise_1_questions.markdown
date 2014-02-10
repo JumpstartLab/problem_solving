@@ -79,6 +79,8 @@ Write a method to replace all spaces in a string with ‘%20’ without .gsub or
   passed in.
 * let's now write a test that will rotate the image 90 CW and test that the
   colors returned are returned in the correct, rotated, order.
+* ok, test written, now let's implement a method that rotates clockwise.  how do
+  we do the simplest thing?
 
 
 ## Problem 7
