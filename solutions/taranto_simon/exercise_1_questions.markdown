@@ -51,3 +51,31 @@ Write a method to replace all spaces in a string with ‘%20’ without .gsub or
 * what's the best way to iterate through a string's chars?
 * it seems reasonable to just use inject again.
 
+## Problem 6
+* hmm, we're dealing with a matrix.  I know there is a ruby Matrix class and
+  i've always wanted to use it. How does it work?  Let's go to the docs.
+* I started by drawing out a 2x2 matrix on paper and wrote out long hand which
+  cell moved to which cell and what the delta in x and y coords are
+* then I did a 3x3 matrix similarly
+* then I did a 4x4 matric similarly.  At this point I feel confident I have the
+  majority of the cases covered and I see a pattern with the way the changes in
+  coords happen.  Now, I'll go back and try to implement the simpler 2x2 in
+  code.
+* ok, I figured out the pattern.  What we really care about is the delta (in
+  terms of x and y) that we must move each cell in the matrix.  So, if we have
+  a 2x2, we'll have a 2x2 matrix of the coordinates that show how to move each
+  cell.  Assuming an NxN matrix with a coordinate system of x by y, the general formula for the deltas is (N-1-x-y, x-y)
+* Now that we're in code, how do we break down the different concepts?  We have
+  the concept of an image that has pixels.  Let's start by modeling a pixel.
+* what does a pixel need?  It needs to have four bytes.  I'm comfy simplifying
+  the situation and saying a pixel has a color and it is a string.  Whatever is
+  in the string, I don't care.
+
+
+## Problem 7
+* ah, I forgot to write again....
+* I want an array of arrays to represent the matrix and the figure out where
+  there are zeroes.  How do we find where there are zeroes.
+
+
+## Problem 8
