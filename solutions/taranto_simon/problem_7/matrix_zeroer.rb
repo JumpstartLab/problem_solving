@@ -35,7 +35,7 @@ class MatrixZeroer
     rows = zero_rows
     orig_matrix.each_with_index do |row, r|
       if rows.include?(r)
-        rows.each_with_index do |element, c|
+        row.each_with_index do |element, c|
           orig_matrix[r][c] = 0
         end
       end
