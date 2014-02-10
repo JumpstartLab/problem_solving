@@ -10,7 +10,7 @@ class ImageTest < Minitest::Test
                         ["1", "2"],
                         ["3", "4"]
                       ])
-    assert_equal(image.pixels.flatten.map(&:color), ["1", "2", "3", "4"])
+    assert_equal(["1", "2", "3", "4"], image.pixels.flatten.map(&:color))
   end
 
   def test_it_can_be_rotated_90_CW
@@ -19,7 +19,7 @@ class ImageTest < Minitest::Test
                         ["3", "4"]
                       ])
     rotated = image.rotate_cw
-    assert_equal(rotated.pixels.flatten.map(&:color), ["3", "1", "2", "4"])
+    assert_equal(["3", "1", "4", "2"], rotated.pixels.flatten.map(&:color))
   end
 
 end
