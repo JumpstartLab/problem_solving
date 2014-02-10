@@ -1,5 +1,5 @@
 1. Implement an algorithm to determine if a string has all unique characters without using `uniq`. What if you can not use additional data structures?
-X2. Write code to reverse a string without using `.reverse`
+2. Write code to reverse a string without using `.reverse`
 3. Design an algorithm and write code to remove the duplicate characters in a string without using `.uniq`
 4. Write a method to decide if two strings are anagrams or not
 5. Write a method to replace all spaces in a string with ‘%20’ without `.gsub` or `.sub`
