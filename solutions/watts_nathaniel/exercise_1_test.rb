@@ -40,4 +40,50 @@ class StringTest < MiniTest::Test
     expected = string.gsub(' ', '%20')
     assert_equal expected, string.url_spacify
   end
+
+  def test_it_replaces_spaces_with_url_spaces2
+    string = "this is the end of the     world    "
+    expected = string.gsub(' ', '%20')
+    assert_equal expected, string.url_spacify
+  end
+end
+
+class NeoTest < MiniTest::Test
+  def test_it_exists
+    assert Neo
+  end
+
+  def test_it_knows_the_size_of_the_matrix
+    matrix = [
+      [1, 2],
+      [3, 4]
+    ]
+    n = Neo.new(matrix)
+    assert_equal 2, n.size
+  end
+
+  def test_it_can_return_an_array_of_matrix_cells
+    matrix = [
+      [1, 2],
+      [3, 4]
+    ]
+    n = Neo.new(matrix)
+    assert_equal [1, 2, 3, 4], n.cells
+  end
+
+  def test_it_can_take_a_row_convert_to_column
+    matrix = [
+      [1, 2],
+      [3, 4]
+    ]
+    # [
+    #  [3, 1],
+    #  [4, 2]
+    # ]
+    n = Neo.new(matrix)
+    column = [1, 2]
+    rotated = n.rotate_ninety
+    assert_equal column, [rotated[0][1], rotated[1][1]]
+  end
+
 end

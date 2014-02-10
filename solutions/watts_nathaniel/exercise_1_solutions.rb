@@ -1,3 +1,4 @@
+require 'pry'
 # Problem 1
 class String
 
@@ -18,9 +19,8 @@ class String
   end
 
   def remove_dups
-    chars.inject([]) do |array, char|
-      array << char unless array.include?(char)
-      array
+    chars.inject([]) do |arr, char|
+      arr.include?(char) ? arr : arr << char
     end.join
   end
 
@@ -29,6 +29,29 @@ class String
   end
 
   def url_spacify
-    split(' ').join('%20')
+    chars.map { |char| char == " " ? "%20" : char }.join
+  end
+end
+
+class Neo
+  attr_reader :matrix
+
+  def initialize(matrix)
+    @matrix = matrix
+  end
+
+  def size
+    @size = cells.length / 2
+  end
+
+  def cells
+    @cells ||= matrix.flatten
+  end
+
+  def rotate_ninety
+    matrix.each_with_index do |row, index|
+      row.each_with_index do |cell, index|
+      end
+    end
   end
 end
