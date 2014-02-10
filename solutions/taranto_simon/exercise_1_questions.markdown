@@ -70,6 +70,15 @@ Write a method to replace all spaces in a string with ‘%20’ without .gsub or
 * what does a pixel need?  It needs to have four bytes.  I'm comfy simplifying
   the situation and saying a pixel has a color and it is a string.  Whatever is
   in the string, I don't care.
+* Now we need something to hold the pixels.  That's an image.  Let's make an
+  Image class.
+* what does the image class need to know about?  It in some way needs to accept
+  a bunch of pixels.  How do we set up Image to work with pixel?
+* let's try passing in an array of arrays holding strings that represent colors
+  and in the image#initialize, we'll go make a Pixel object for each element
+  passed in.
+* let's now write a test that will rotate the image 90 CW and test that the
+  colors returned are returned in the correct, rotated, order.
 
 
 ## Problem 7
