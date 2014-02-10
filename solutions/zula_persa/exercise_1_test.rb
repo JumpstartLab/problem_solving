@@ -19,4 +19,5 @@ class UniqCharsTest < Minitest::Test
     word = UniqChars.new("Grinning")
     assert_equal "7 18 9 14 14 9 14 7", word.word_numbers
   end
+
 end

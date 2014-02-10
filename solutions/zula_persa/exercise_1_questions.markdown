@@ -21,3 +21,7 @@
 * Can I cycle though the length of the word using `times` and the position of the character % 32?
 * Can I append to a string? (So I don't have to use another data structure?)
 * Can I use modulo in a different way to solve this problem?
+* Is using numbers breaking the rules of not using any other data structure?
+* Can I shift?... no, it's an array method
+* Can I use #upto? Perhaps to find if the change is not equivilant to the two numbers being passed to #upto?
+
