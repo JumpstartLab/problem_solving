@@ -44,8 +44,11 @@
 ### 5
 
 * Oh yay, I had to do this before on a project ( with .gsub though)
-* Set up the test - I have some ideas in my head - thinking 'split'
-* Set up an 'each' block to concat on to an empty string, but now I'm stuck with an extra %20
+* Set up the test - I have some ideas in my head - thinking 'split(" ")'
+* Set up an 'each' block to concat on to an empty string, but now I'm stuck with an extra %20 because I'm adding it to the begining of every 'split'
 * fix it with a range (not exactly elegant)
 * Get the test to pass but start to wonder if I can handle multiple spaces in a row - check the problem
-* Looks like I need to handle multiple spaces - write a test with a string that is just "  "
+* Looks like I need to handle multiple spaces - write a test with a string that is just "  " - it comes up with nil.
+* Jump into irb to see what I can do with "  "
+* scrap old method and start working with chars
+* solve both tests - slightly refactor code
