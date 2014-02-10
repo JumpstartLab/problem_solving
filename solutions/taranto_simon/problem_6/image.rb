@@ -8,6 +8,11 @@ class Image
     @pixels = make_pixels(pixel_colors)
   end
 
+  def rotate_cw
+    self
+    # delta = (N-1-x-y, x-y)
+  end
+
   private
 
   def make_pixels(colors)
