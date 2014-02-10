@@ -1,0 +1,5 @@
+What should a class which reverses strings be named?
+
+Can I solve this recursively?
+
+Could I override the reverse method to use my algorithm?
