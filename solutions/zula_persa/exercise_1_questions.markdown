@@ -24,4 +24,9 @@
 * Is using numbers breaking the rules of not using any other data structure?
 * Can I shift?... no, it's an array method
 * Can I use #upto? Perhaps to find if the change is not equivilant to the two numbers being passed to #upto?
+* What is the most simple thing I can do?
+* Do I need to know the numbers of things anyway?
+* What about the #next method again.. what if I called my word_numbers method with next?
+* what about going through the count with #next instead?
+* What if I kept going over smaller and smaller chunks of the word using #next until I found two that matched?
 
