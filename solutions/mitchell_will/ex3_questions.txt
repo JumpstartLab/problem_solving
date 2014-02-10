@@ -1,0 +1,7 @@
+Can I use a similar method to my first solution here?
+
+Can I do this without using class methods this time?
+
+Can I do this by only extending the string class?
+
+How do I make a copy of 'self' without continuing to reference it?
