@@ -1,0 +1,9 @@
+## Questions
+
+Do we need to go through each character in order to iteratively find out?
+
+Does a space count as a character for uniqueness?
+
+How does splitting and sorting affect performance?
+
+
