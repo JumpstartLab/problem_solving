@@ -8,9 +8,18 @@ class Algo
   #  end.all? { |_,count| count == 1 }
   #end
 
+  #def self.is_unique?(string)
+  #  string.each_char.inject("") do |uniques, letter|
+  #    uniques << letter unless uniques.include?(letter)
+  #  end
+  #end
+
   def self.is_unique?(string)
-    string.each_char.inject("") do |uniques, letter|
-      uniques << letter unless uniques.include?(letter)
+    uniques = ""
+    for i in 0..(string.length - 1)
+      letter = string[i]
+      return false if uniques.include?(letter)
+      uniques << letter
     end
   end
 
