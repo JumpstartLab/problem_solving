@@ -8,11 +8,11 @@ class UniqChars
   end
 
   def word_numbers
-    numbers = ""
+    numbers = String.new
     count.times do |position|
-      numbers <<  word[position].ord % 32
+      numbers <<  (word[position].ord % 32).to_s + " "
     end
-    return numbers
+    return numbers.strip
   end
 
 end

@@ -20,4 +20,4 @@
 * Oooooh interesting... "a".ord % 32 == 1!
 * Can I cycle though the length of the word using `times` and the position of the character % 32?
 * Can I append to a string? (So I don't have to use another data structure?)
-
+* Can I use modulo in a different way to solve this problem?
