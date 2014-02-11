@@ -1,0 +1,7 @@
+What does it mean for a string to be rotated?
+
+How can use index to test for substrings?
+
+Can I come up with a different implementation?
+
+Can I find the rotation without the substring method?

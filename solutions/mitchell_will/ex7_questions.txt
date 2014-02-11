@@ -1,0 +1,7 @@
+How do I create a blank MxN matrix?
+
+Can I use a method similar to the last problem for finding columns?
+
+How do I modify my matrix in place, while iterating through columns?
+
+If I collect the coordinates of the zeros, would that be helpful?

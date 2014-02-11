@@ -1,0 +1,7 @@
+What does it mean for a the characters of a string to be unique?
+
+What data structure uses this property of uniqueness?
+
+In what scope is the test expecting the Unique class to be in?
+
+How do I count all the instances of certian characters?

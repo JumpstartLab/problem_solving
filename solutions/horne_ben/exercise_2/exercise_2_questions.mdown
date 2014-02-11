@@ -1,0 +1,7 @@
+## Questions
+
+How can you set the index of a char on a new string?
+
+Try to set the index in a new array or string as the negative version of the same index
+
+Can also split and pop last element and add to a new string
