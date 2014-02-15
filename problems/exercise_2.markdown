@@ -1,6 +1,6 @@
 ## Linked Lists
 
- Presume for these exercises that you start with an existing implementation of a normal singly-linked linked list.
+Presume for these exercises that you start with an existing implementation of a normal singly-linked linked list.
 
 1. In your own words, explain what a linked list is and how it works. Make sure you explain what a `node` and the `link` are.
 
@@ -23,3 +23,5 @@ What would you call this kind of list? If you started on Node A and traversed ac
 7. Write a *pseudocode* algortitm for counting the number of elements in a linked list.
 
 8. Write a *pseudocode* algorithm for counting the number of unique elements in a linked list.
+
+9. For a list with *n* nodes, what's the average number of steps to determine if an element is in the list? What's the best case? The worst?
